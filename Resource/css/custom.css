@@ -1,0 +1,141 @@
+body {
+    background-color:#09151f;
+    background: url("../image/background-new.jpg") no-repeat top center fixed;
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+}
+#banner{
+    background-image: url("../image/qa.png");
+    height: 108px;
+    width: 100%;
+}
+.maincontent{
+    height: auto;
+    background-color: yellow;
+    margin-top: 98px;
+}
+#content{
+    padding-top:25px;
+    padding-right: 5px;
+    background-color: green;
+    height: auto;
+}
+#rightbar{
+    padding-top:25px;
+    background-color: white;
+    height:auto;
+}
+#rightbar .rightbar-content{
+    margin-left: 35px;
+    background-color: white;
+    height: auto;
+}
+
+#searchbox{
+    margin-bottom: 10px;
+}
+
+.fullcontent{
+    margin-top: 20px;
+    height: auto;
+    background-color: white;
+    border-bottom: 5px solid green;
+}
+
+.mediacontent{
+   background-color: red;
+    padding: 4px;
+}
+.container1 {
+    background: #e3e3e3;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.videowrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* tab widget */
+
+#tabwidget ul {
+    margin:0;
+    list-style:none;
+}
+
+ul#tabnav li {
+    float:left;
+    width:33.33%;
+}
+
+ul#tabnav h3 {
+    font-size:13px;
+    font-weight:normal;
+    margin:0;
+}
+
+ul#tabnav li img {
+    margin-right:7px;
+}
+
+ul#tabnav li a {
+    color:#FFF;
+    background:#3d4c54;
+    border-right:1px solid #485A63;
+    display:block;
+    padding:5px 0;
+    text-align:center;
+}
+
+ul#tabnav li a:last-child {
+    border-right:none;
+}
+
+ul#tabnav li a:hover,
+ul#tabnav li a.selected {
+    background:#81b752;
+    text-decoration:none;
+}
+
+#tab-content {
+    border:1px solid #eee;
+}
+
+/*end of tab*/
+
+/*footer*/
+.footer{
+    background-color: black;
+    height: 450px;
+    margin-top: 18px;
+    border-top: 11px solid green;
+    box-shadow: 0 -8px 0 rgba(0, 0, 0, .1);
+
+}
+.footer-content{
+    height: 440px;
+}
+
+.footer-below{
+    background-color: gray;
+    height: 100px;
+}
+.stripe-line {
+    height: 12px;
+    overflow: hidden;
+    margin-top: 5px;
+}
